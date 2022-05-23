@@ -1,0 +1,36 @@
+.RadioGroup{
+    display: flex;
+    margin: 0.25em;
+}
+
+.RadioGroup div{
+    flex: 1 1 100px;
+    border: 1px solid var(--gray);
+}
+
+.RadioGroup div:first-child{
+    border-radius: var(--radio-first-curve);
+}
+
+.RadioGroup div:last-child{
+    border-radius: var(--radio-last-curve);
+}
+
+.RadioLabel{
+    width: 100%;
+    padding: 0.2em 0.5em;
+}
+
+.RadioLabel:hover{
+    background-color: var(--gray);
+    cursor: pointer;
+}
+
+.RadioButton{
+    display: none;
+}
+
+.RadioButton:checked + .RadioLabel {
+    color: var(--blue);
+    font-weight: 700;
+}

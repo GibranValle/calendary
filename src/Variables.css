@@ -1,0 +1,15 @@
+:root{
+    --gray: #66666640;
+    --black: #2c2c2cb1;
+    --blue: #0d6efd;
+    --container-full-curve: 6px;
+    --container-top-curve: 5px 5px 0 0 ;
+    --container-bottom-curve: 0 0 5px 5px;
+
+    --card-full-curve: 3.5px;
+    --card-top-curve: 2.5px 2.5px 0 0 ;
+    --card-bottom-curve: 0 0 2.5px 2.5px;
+
+    --radio-first-curve: 5px 0 0 5px;
+    --radio-last-curve: 0 5px 5px 0;
+}

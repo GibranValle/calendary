@@ -1,0 +1,28 @@
+.InputRow,
+.SelectRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin: 0.5em 0.25em 0 0.25em;
+}
+
+:is(.InputRow, .SelectRow) label {
+    margin: 0;
+}
+
+.InputCol,
+.SelectCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.25em 0.25em 0 0.25em;
+    text-align: start;
+}
+
+:is(.InputCol, .SelectCol) label {
+    width: 100%;
+    margin: 0;
+    padding: 0 0.25em;
+}
