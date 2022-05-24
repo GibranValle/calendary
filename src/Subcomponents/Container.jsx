@@ -1,7 +1,4 @@
 import React, { PureComponent } from 'react'
-import Card from './Card'
-import Filter from './Filter'
-
 import './Container.css'
 
 class Container extends PureComponent {

@@ -1,9 +1,8 @@
 import React, { PureComponent } from 'react'
-import { InputRow, InputCol } from './Input'
-import { SelectRow, SelectCol } from './Select'
+import { SelectRow } from './Select'
 import './Filter.css'
 import RadioButton from './RadioButton'
-import Tag from './Tag'
+import ReactSelect from './ReactSelect';
 
 class Filter extends PureComponent {
     static defaultProps={
@@ -60,7 +59,7 @@ class Filter extends PureComponent {
                         { value: '31', text: '31' },
                     ]} />
                 }
-                <Tag />
+                <ReactSelect />
                 <RadioButton checkedChild={0} radioValue={this.getRadioValue} id='type'
                     data={[
                         { name: 'Preventivo', value: 'Preventivo' },

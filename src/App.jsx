@@ -1,9 +1,10 @@
-import Container from './Container';
-import Filter from './Filter';
-import Card from './Card';
+import Container from './Subcomponents/Container';
+import Filter from './Subcomponents/Filter';
+import Card from './Subcomponents/Card';
+import AnimatedMulti from './Subcomponents/ReactSelect';
 
 import './App.css';
-import './Variables.css'
+import './Subcomponents/Variables.css'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Container title={'Mantenimientos'} footer='Preventivos'
         body={<Card />} />
       <Container title={'Personal'} footer='Disponible' />
+      <AnimatedMulti />
     </div>
   );
 }
